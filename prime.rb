@@ -3,6 +3,6 @@ def prime?(integer)
   if integer < 0
     return false
   else
-    range = 
+    range = (1...)
   end
 end
