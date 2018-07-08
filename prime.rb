@@ -1,8 +1,13 @@
 # Add  code here!
 def prime?(integer)
+  range = (1...integer)
   if integer < 0
     return false
   else
-    range = (1...)
+    range.each |num|
+      if integer % num == 0
+        return false
+      end
+    return true
   end
 end
